@@ -86,7 +86,7 @@ class HooksMessage implements \JsonSerializable
      */
     public function alertIdNotGiven()
     {
-        return !isset($this->alertId);
+        return ! isset($this->alertId);
     }
 
     /**

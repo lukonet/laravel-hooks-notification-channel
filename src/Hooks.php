@@ -37,7 +37,7 @@ class Hooks
     }
 
     /**
-     * Send Notification
+     * Send Notification.
      *
      * @param array|\JsonSerializable $fields
      *
