@@ -80,7 +80,7 @@ class Hooks
         } catch (ClientException $exception) {
             throw CouldNotSendNotification::hooksRespondedWithAnError($exception);
         } catch (\Exception $exception) {
-            throw CouldNotSendNotification::couldNotCommunicateWithHooks();
+            throw CouldNotSendNotification::couldNotCommunicateWithHooks($exception);
         }
     }
 }
