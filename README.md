@@ -32,7 +32,7 @@ Hooks API lets you send a notification to all users subscribed to your custom al
 You can install the package via composer:
 
 ``` bash
-composer require lukonet/hooks
+composer require lukonet/laravel-hooks-notification-channel
 ```
 
 You must install the service provider:

@@ -1,5 +1,5 @@
 {
-    "name": "lukonet/hooks",
+    "name": "lukonet/laravel-hooks-notification-channel",
     "description": "Hooks Notifications Driver",
     "keywords": [
       "hooks notification",
@@ -9,7 +9,7 @@
       "hooks notifications channel",
       "hooks api"
     ],
-    "homepage": "https://github.com/lukonet/hooks",
+    "homepage": "https://github.com/lukonet/laravel-hooks-notification-channel",
     "license": "MIT",
     "authors": [
         {
