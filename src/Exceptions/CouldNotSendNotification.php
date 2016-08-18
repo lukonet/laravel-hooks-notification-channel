@@ -51,4 +51,3 @@ class CouldNotSendNotification extends \Exception
         return new static('Alert ID for this notification was not provided.');
     }
 }
-
