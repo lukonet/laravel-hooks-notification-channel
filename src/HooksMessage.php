@@ -4,7 +4,7 @@ namespace NotificationChannels\Hooks;
 
 class HooksMessage implements \JsonSerializable
 {
-    /** @var integer Alert ID. */
+    /** @var int Alert ID. */
     public $alertId;
 
     /** @var string Notification Message. */
@@ -14,9 +14,9 @@ class HooksMessage implements \JsonSerializable
     public $url;
 
     /**
-     * @param integer $alertId
-     * @param string  $message
-     * @param string  $url
+     * @param int    $alertId
+     * @param string $message
+     * @param string $url
      *
      * @return static
      */
@@ -26,9 +26,9 @@ class HooksMessage implements \JsonSerializable
     }
 
     /**
-     * @param integer $alertId
-     * @param string  $message
-     * @param string  $url
+     * @param int    $alertId
+     * @param string $message
+     * @param string $url
      */
     public function __construct($alertId = null, $message = '', $url = '')
     {
@@ -40,7 +40,7 @@ class HooksMessage implements \JsonSerializable
     /**
      * Alert ID associated with this notification.
      *
-     * @param integer $alertId
+     * @param int $alertId
      *
      * @return $this
      */
