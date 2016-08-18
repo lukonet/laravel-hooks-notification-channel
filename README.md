@@ -1,13 +1,13 @@
 # Hooks Notifications Channel for Laravel 5.3
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/lukonet/hooks.svg?style=flat-square)](https://packagist.org/packages/lukonet/hooks)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/lukonet/laravel-hooks-notification-channel.svg?style=flat-square)](https://packagist.org/packages/lukonet/laravel-hooks-notification-channel)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/lukonet/hooks/master.svg?style=flat-square)](https://travis-ci.org/lukonet/hooks)
+[![Build Status](https://img.shields.io/travis/lukonet/laravel-hooks-notification-channel/master.svg?style=flat-square)](https://travis-ci.org/lukonet/laravel-hooks-notification-channel)
 [![StyleCI](https://styleci.io/repos/:style_ci_id/shield)](https://styleci.io/repos/:style_ci_id)
 [![SensioLabsInsight](https://img.shields.io/sensiolabs/i/:sensio_labs_id.svg?style=flat-square)](https://insight.sensiolabs.com/projects/:sensio_labs_id)
-[![Quality Score](https://img.shields.io/scrutinizer/g/lukonet/hooks.svg?style=flat-square)](https://scrutinizer-ci.com/g/lukonet/hooks)
-[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/lukonet/hooks/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/lukonet/hooks/?branch=master)
-[![Total Downloads](https://img.shields.io/packagist/dt/lukonet/hooks.svg?style=flat-square)](https://packagist.org/packages/lukonet/hooks)
+[![Quality Score](https://img.shields.io/scrutinizer/g/lukonet/laravel-hooks-notification-channel.svg?style=flat-square)](https://scrutinizer-ci.com/g/lukonet/laravel-hooks-notification-channel)
+[![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/lukonet/laravel-hooks-notification-channel/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/lukonet/laravel-hooks-notification-channel/?branch=master)
+[![Total Downloads](https://img.shields.io/packagist/dt/lukonet/laravel-hooks-notification-channel.svg?style=flat-square)](https://packagist.org/packages/lukonet/laravel-hooks-notification-channel)
 
 This package makes it easy to send notifications using [Hooks](http://www.gethooksapp.com/) with Laravel 5.3. 
 
@@ -16,7 +16,7 @@ Hooks API lets you send a notification to all users subscribed to your custom al
 ## Contents
 
 - [Installation](#installation)
-	- [Setting up the Hooks service](#setting-up-the-Hooks-service)
+	- [Setting up the Hooks service](#setting-up-the-hooks-service)
 - [Usage](#usage)
 	- [Available Message methods](#available-message-methods)
 - [Changelog](#changelog)
