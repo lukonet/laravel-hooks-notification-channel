@@ -30,7 +30,7 @@ class HooksChannel
         $message = $notification->toHooks($notifiable);
 
         if ($message->alertIdNotGiven()) {
-            if (!$alertId = $notifiable->routeNotificationFor('hooks')) {
+            if (! $alertId = $notifiable->routeNotificationFor('hooks')) {
                 throw CouldNotSendNotification::alertIdNotProvided();
             }
 
