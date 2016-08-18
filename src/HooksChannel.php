@@ -2,8 +2,8 @@
 
 namespace NotificationChannels\Hooks;
 
-use NotificationChannels\Hooks\Exceptions\CouldNotSendNotification;
 use Illuminate\Notifications\Notification;
+use NotificationChannels\Hooks\Exceptions\CouldNotSendNotification;
 
 class HooksChannel
 {

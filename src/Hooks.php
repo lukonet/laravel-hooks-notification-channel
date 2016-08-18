@@ -3,8 +3,8 @@
 namespace NotificationChannels\Hooks;
 
 use GuzzleHttp\Client as HttpClient;
-use GuzzleHttp\RequestOptions;
 use GuzzleHttp\Exception\ClientException;
+use GuzzleHttp\RequestOptions;
 use NotificationChannels\Hooks\Exceptions\CouldNotSendNotification;
 
 class Hooks
@@ -16,7 +16,7 @@ class Hooks
     protected $key = null;
 
     /**
-     * @param null            $key API Key
+     * @param null            $key        API Key
      * @param HttpClient|null $httpClient
      */
     public function __construct($key = null, HttpClient $httpClient = null)
@@ -37,7 +37,7 @@ class Hooks
     }
 
     /**
-     * Send Notification
+     * Send Notification.
      *
      * @param array|\JsonSerializable $fields
      *
@@ -74,7 +74,7 @@ class Hooks
 
         try {
             return $this->httpClient()->post($apiUrl, [
-                RequestOptions::JSON => $fields,
+                RequestOptions::JSON    => $fields,
                 RequestOptions::HEADERS => ['Hooks-Authorization' => $this->key],
             ]);
         } catch (ClientException $exception) {
