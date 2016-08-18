@@ -1,0 +1,46 @@
+{
+    "name": "lukonet/hooks",
+    "description": "Hooks Notifications Driver",
+    "keywords": [
+      "hooks notification",
+      "laravel",
+      "hooks",
+      "notification",
+      "hooks notifications channel",
+      "hooks api"
+    ],
+    "homepage": "https://github.com/lukonet/hooks",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Syed Irfaq R.",
+            "email": "syed@lukonet.com",
+            "homepage": "https://lukonet.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4",
+        "guzzlehttp/guzzle": "^6.2",
+        "illuminate/notifications": "^5.3",
+        "illuminate/support": "^5.1|^5.2|^5.3"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.5",
+        "phpunit/phpunit": "4.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NotificationChannels\\Hooks\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NotificationChannels\\Hooks\\Test\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}
