@@ -9,6 +9,8 @@
 [![Code Coverage](https://img.shields.io/scrutinizer/coverage/g/lukonet/laravel-hooks-notification-channel/master.svg?style=flat-square)](https://scrutinizer-ci.com/g/lukonet/laravel-hooks-notification-channel/?branch=master)
 [![Total Downloads](https://img.shields.io/packagist/dt/lukonet/laravel-hooks-notification-channel.svg?style=flat-square)](https://packagist.org/packages/lukonet/laravel-hooks-notification-channel)
 
+> **UPDATE:** It seems like the Hooks service is no longer active, hence, this project has been archived.
+
 This package makes it easy to send notifications using [Hooks](http://www.gethooksapp.com/) with Laravel 5.3. 
 
 Hooks API lets you send a notification to all users subscribed to your custom alert.
